@@ -18,14 +18,9 @@ header {
     text-align: right;
     position: absolute;
 
-
-
-
-
-
 }
 
-.btn-primary {
+.btn {
     color: #005FAC;
     font-weight: 700;
     font-size: 20px;
@@ -36,7 +31,10 @@ header {
     background-color: #e6e9eb;
 
 }
-
+button:hover {
+    background-color: rgba(31, 204, 235, 0.712);
+    color: rgb(9, 65, 9);
+  }
 .banner-content {
     padding: 286px 280px 0 845px;
 }
@@ -152,37 +150,108 @@ header {
 .plan-item img {
     padding-left: 50px;
 }
-.watch{
+
+.watch {
     padding-right: 350px;
     padding-left: 350px;
     padding-bottom: 130px;
 }
+
 .gradient {
     height: 300px;
     width: 1140px;
     top: 2221.96px;
-     background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 80%),url("../images/watch.png"); 
-    
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 80%), url("../images/watch.png");
+
     /* background: linear-gradient(to left, transparent, #005FAC),
           url("../images/watch.png"); */
-      background-repeat: no-repeat;
+    background-repeat: no-repeat;
     border-radius: 8px;
     background-position: center;
 
 }
-.gradient-content{
+
+.gradient-content {
     padding-left: 100px;
     padding-top: 60px;
 }
+
 .gradient-title {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     color: #FFFFFF;
     padding-bottom: 24px;
+
+}
+
+.last {
+    display: flex;
+    gap: 100px;
+    background-color: #151414;
+    padding: 130px 200px;
+    color: #FFFFFF;
+    padding-left: 330px;
+    padding-right: 230px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+.future{
+    padding-right: 430px;
+}
+.future a {
+    text-decoration: none;
     
 }
 
-.call-now {
+.f-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    padding-bottom: 16px;
+}
+
+.f-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.mail {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 24px;
+}
+
+#phone {
+    padding-bottom: 32px;
+}
+
+.subscribe {
+    padding-right: 130px;
     
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+form {
+    padding-top: 32px;
+
+
+}
+
+input[type="email"] {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 16px;
+    border-radius: 5px;
+    font-size: 20px;
 }
