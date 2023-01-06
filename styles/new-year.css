@@ -2,9 +2,11 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-section{
-    padding-bottom: 130px;
+
+header {
+    margin-bottom: 130px;
 }
+
 .banner {
 
     background-image: url(../images/banner/banner3.png);
@@ -15,7 +17,9 @@ section{
     color: white;
     text-align: right;
     position: absolute;
-    
+
+
+
 
 
 
@@ -54,8 +58,46 @@ section{
     padding-top: 24px;
     padding-bottom: 32px;
     padding-left: 290px;
-    
-}
-.previous{
 
+}
+
+.previous {
+
+    padding-bottom: 130px;
+    width: 1072px;
+    height: 723.3px;
+    background-color: #FFFFFF;
+    display: flex;
+    padding-top: 1039px;
+    padding-left: 404px;
+    padding-right: 404px;
+    align-content: center;
+
+
+
+}
+
+.previous-content {
+    padding-top: 210px;
+    padding-left: 100px;
+}
+
+.previous-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.previous-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+.previous-check{
+    padding-top: 8px;
+    padding-bottom:8px;
 }
