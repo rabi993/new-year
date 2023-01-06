@@ -97,7 +97,57 @@ header {
     padding-top: 24px;
     padding-bottom: 16px;
 }
-.previous-check{
+
+.previous-check {
     padding-top: 8px;
-    padding-bottom:8px;
+    padding-bottom: 8px;
+}
+
+.plan {
+    padding-bottom: 130px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+    padding-bottom: 50px;
+}
+
+.plan-content {
+    display: flex;
+    padding-left: 230px;
+    padding-right: 230px;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-item {
+    padding-left: 43px;
+    padding-right: 43px;
+
+    
+}
+
+.plan-item h3 {
+    padding-top: 24px;
+    padding-bottom: 16px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+
+.plan-item h4 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+.plan-item img{
+   padding-left: 50px;
 }
