@@ -128,7 +128,7 @@ header {
     padding-left: 43px;
     padding-right: 43px;
 
-    
+
 }
 
 .plan-item h3 {
@@ -148,6 +148,41 @@ header {
     text-align: center;
     color: #737272;
 }
-.plan-item img{
-   padding-left: 50px;
+
+.plan-item img {
+    padding-left: 50px;
+}
+.watch{
+    padding-right: 350px;
+    padding-left: 350px;
+    padding-bottom: 130px;
+}
+.gradient {
+    height: 300px;
+    width: 1140px;
+    top: 2221.96px;
+     background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 80%),url("../images/watch.png"); 
+    
+    /* background: linear-gradient(to left, transparent, #005FAC),
+          url("../images/watch.png"); */
+      background-repeat: no-repeat;
+    border-radius: 8px;
+    background-position: center;
+
+}
+.gradient-content{
+    padding-left: 100px;
+    padding-top: 60px;
+}
+.gradient-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+    
+}
+
+.call-now {
+    
 }
