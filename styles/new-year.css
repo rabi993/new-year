@@ -34,7 +34,15 @@ header {
 button:hover {
     background-color: rgba(31, 204, 235, 0.712);
     color: rgb(9, 65, 9);
-  }
+}
+.sub{
+    background-color: rgba(24, 24, 190, 0.986);
+    color: #e6e9eb;
+}
+.sub:hover{
+    background-color: rgba(31, 204, 235, 0.712);
+    color: rgb(9, 65, 9);
+}
 .banner-content {
     padding: 286px 280px 0 845px;
 }
@@ -59,6 +67,7 @@ button:hover {
 
 }
 
+/* previous part styles................................. */
 .previous {
 
     padding-bottom: 130px;
@@ -101,6 +110,8 @@ button:hover {
     padding-bottom: 8px;
 }
 
+
+/* My plan styles............................... */
 .plan {
     padding-bottom: 130px;
 }
@@ -151,6 +162,8 @@ button:hover {
     padding-left: 50px;
 }
 
+
+/* watch gradient styles.......................... */
 .watch {
     padding-right: 350px;
     padding-left: 350px;
@@ -185,6 +198,8 @@ button:hover {
 
 }
 
+
+/* footer part styles....................... */
 .last {
     display: flex;
     gap: 100px;
