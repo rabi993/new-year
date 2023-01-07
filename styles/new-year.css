@@ -136,6 +136,7 @@ button:hover {
 .plan-item {
     padding-left: 43px;
     padding-right: 43px;
+    
 
 
 }
@@ -210,7 +211,7 @@ button:hover {
     line-height: 47px;
     text-align: center;
     color: #151414;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 
 
